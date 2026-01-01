@@ -1,0 +1,26 @@
+# Виртуальные окружения
+venv/
+env/
+.venv/
+hw1-streamlit/  # если вы создавали окружение как папку (редко в Conda)
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Временные/тестовые скрипты
+inspect_model.py
+test_load.py
+test_*.py
+*_test.py
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
