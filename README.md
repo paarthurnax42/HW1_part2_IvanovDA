@@ -3,13 +3,14 @@
 Проект по курсу Машинное обучение HW1_part2
 Цель: построить регрессионную модель для предсказания цены подержанного автомобиля на основе его характеристик и развернуть её в интерактивном Streamlit-приложении.
 Выполнил: Студент 1-го курса магистратуры ИИ25 Иванов Дмитрий
-Ссылка на сервис: https://hw1part2ivanovda.streamlit.app/
+
+Ссылка на сервис: https://hw1part2ivanovda.streamlit.app/пше 
 ---
 
 ## Структура репозитория
 
 - `HW1_Regression_with_inference_base_IvanovD.ipynb` — полный ноутбук с EDA, препроцессингом, обучением и оценкой моделей из HW1_part1.
-- `model.pkl` — сохранённая модель Ridge и все необходимые препроцессоры (`TargetEncoder`, `OneHotEncoder`, `StandardScaler`).
+- `model.pkl` — сохранённая модель Ridge и все необходимые препроцессоры (`TargetEncoder`, `OneHotEncoder`, `StandardScgitaler`).
 - `app.py` — Streamlit-приложение для интерактивного предсказания.
 - `data/df_train_processed.csv` — очищенный тренировочный датасет (с `log_selling_price`).
 - `report.md` — подробный отчёт с выводами и оценкой сервиса.
